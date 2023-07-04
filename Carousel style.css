@@ -1,0 +1,86 @@
+/* CSS */
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 0 0 80px;
+    filter: grayscale(0.6);
+}
+
+.swiper-slide h2 {
+    color: fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.swiper-pagination {
+    bottom: 34px !important;
+}
+
+.swiper-slide div {
+    transition: 1s;
+    opacity: 0;
+}
+
+.swiper-slide-active div {
+    opacity: 1;
+}
+
+.swiper-slide--one {
+    background: url("api5ctgqj__51146.jpg")/* , url("Painting_of_David_Hume.jpg") */
+    no-repeat
+    50% 50% / cover;
+} /* add more slides */
+
+.swiper-3d
+.swiper-slide-shadow-left,
+.swiper-3d
+.swiper-slide-shadow-right {
+    background-image: none;
+}
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background: #3a6073, linear-gradient(to right, #3a6073, #1622a0);
+}
+
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 50px;
+    min-height: 100vh;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+section a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: #717171;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 48px;
+    margin: 0 auto;
+    padding: 6px 26px;
+    font-size: 16px;
+}
